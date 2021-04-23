@@ -1,0 +1,149 @@
+
+body {
+  font-family: Palatino, URW Palladio L, serif;
+  min-height: 100vh;
+  display:block;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  background-color: black;
+  color:white;
+}
+
+h1{
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+h2{
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+
+.navbar-msc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-msc img {
+  width: 7%;
+  padding: 0px;
+  
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  color: #ffbd4a;
+}
+
+.header-container{
+  display: contents;
+}
+
+#logo {
+  display: block;
+  margin: 5px 5px 5px 50px;
+  border: 0
+  vertical-align :middle;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: white;
+  align-content: center;
+  font-family: Georgia, serif;
+}
+
+.container h1{
+  text-align: center;
+  color:white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+
+.card {
+  color: black;
+  width: 340px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 8px 6px #ffbd4a;
+}
+
+.card img {
+width: 330px;
+height:400px;
+}
+
+h2 a{
+  color:black;
+}
+
+h2 a:hover{
+color: #ffbd4a;
+}
+
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card1 img {
+  padding:5px;
+  align-content: center;
+}
+
+.card1 {
+  color: white;
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px #ffbd4a;
+}
+
+.footer{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  align-content: center;
+  color:white;
+  font-family: Georgia, serif;
+}

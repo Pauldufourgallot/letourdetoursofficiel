@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+  font-family: Palatino, URW Palladio L, serif;
+  margin: 0;
+   background-color: white;
+   color:black;
+}
+h1 {
+  text-align: center;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+h2{
+font-family: Palatino, URW Palladio L, serif;
+
+}
+
+.card img {
+	width: auto;
+	height: 190px;
+	padding:5px;
+	align-content: center;
+	margin:0px 0px 0px 5px;
+}
+
+.card1 img {
+  padding:5px;
+vertical-align: middle;
+
+}
+
+.card1 {
+  color: black;
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+}
+
+
+.navbar-msc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-msc img {
+  width: 7%;
+  padding: 0px;
+  
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  color: #ffbd4a;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: black;
+  align-content: center;
+  font-family: Georgia, serif;
+}
+
+
+#text{
+  text-align: justify;
+}
+
+#président{
+  width: 450px;
+  height: auto;
+  text-align:center;
+  margin: auto;
+  display:flex;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card {
+  color: black;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 35%);
+}
+
+.header-container{
+  display: contents;
+}
+
+#logo {
+  display: block;
+  margin: 5px 5px 5px 50px;
+  border: 0
+  vertical-align :middle;
+}
+
+.btn {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  border-radius: 7px;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ffbd4a;
+}
+
+.btn:hover {
+  background-color: #ffbd4a;
+  color: black;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: black;
+  align-content: center;
+  font-family: Georgia, serif;
+}

@@ -1,0 +1,175 @@
+
+
+body {
+  background-color: white;
+  font-family: Palatino, URW Palladio L, serif;
+  margin: 0px;
+}
+h1{
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+h2{
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.navbar-msc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-msc img {
+  width: 7%;
+  padding: 0px;
+  
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  color: #ffbd4a;
+}
+
+.header-container{
+  display: contents;
+}
+
+#logo {
+  display: block;
+  margin: 5px 5px 5px 50px;
+  border: 0
+  vertical-align :middle;
+}
+
+.card1 img {
+  padding:5px;
+vertical-align: middle;
+}
+
+.card img {
+  width: 450px;
+  height: auto;
+  padding:5px;
+  align-content: center;
+}
+
+h2{
+  margin-top: 0px;
+}
+
+#parcours {
+  margin-top: 70px;
+}
+
+#parcours2020 {
+    width: 1100px;
+  height: auto;
+  padding:5px;
+  align-content: center;
+}
+
+
+.card1 {
+  color: black;
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+}
+
+
+.card {
+  color: black;
+  width: 260px;
+  height: 190px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 35%);
+}
+
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: black;
+  align-content: center;
+  font-family: Georgia, serif;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.container p{
+  text-align: justify;
+}
+
+.card {
+  margin:0 auto;
+  width:500px;
+  height:400px;
+  perspective: 1000px;
+  text-align: center;
+}
+
+.card-inner {
+  position:relative;
+  width: 100%;
+  height:100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.footer{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: black;
+  align-content: center;
+  font-family: Georgia, serif;
+}
+
+h2 a{
+  color:black;
+}
+
+h2 a:hover{
+color: #ffbd4a;
+}

@@ -1,0 +1,258 @@
+body {
+  background-color: black;
+  font-family: Palatino, URW Palladio L, serif;
+  margin: 0;
+}
+h1 {
+  padding-top: 55px;
+}
+
+h1 {
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+h2{
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.carousel-item{
+	height : 75vh;
+}
+
+.d-block{
+  display:inline-block;
+  height: -120vh;
+  white-space:nowrap;
+  overflow: hidden;
+}
+
+.container1{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: black;
+  align-content: center;
+  font-family: Georgia, serif;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.cards2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+.card2 {
+  color: black;
+  width: 250px;
+  text-align: center;
+  align-items: center;
+  background-position:center center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+}
+
+#confinement {
+	color: white;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: linear-gradient(67deg, rgb(0 0 0 / 55%) 51%, rgba(0,0,0,0.2777485994397759) 100%), url(../Images/confinement.jpg);	
+  background-size: cover;
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+  font-family: Georgia, serif;
+}
+
+#blessure {
+	color: white;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: linear-gradient(67deg, rgb(0 0 0 / 55%) 51%, rgba(0,0,0,0.2777485994397759) 100%), url(../Images/blessure.jpg);	
+  background-size: cover;
+  background-color: white;
+  padding: 8px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+  font-family: Georgia, serif;
+}
+
+#président {
+	color: white;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: linear-gradient(67deg, rgb(0 0 0 / 55%) 51%, rgba(0,0,0,0.2777485994397759) 100%), url(../Images/président.jpg);	
+  background-size: cover;
+  height: 250px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+  font-family: Georgia, serif;
+}
+
+#btn-blue {
+  background-color: #ffbd4a;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  border-radius: 7px;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px #ffbd4a;
+  transition: 1s;
+}
+
+#btn-blue:hover {
+  background-color: white;
+  color: #ffbd4a;
+  transition: 1s;
+}
+
+.navbar-msc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.navbar-msc img {
+  width: 7%;
+  padding: 0px;
+}
+
+.links {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  color: #ffbd4a;
+}
+
+
+.header-container{
+  display: contents;
+
+}
+
+#logo {
+  display: block;
+  margin: 5px 5px 5px 50px;
+  border: 0
+  vertical-align :middle;
+}
+
+#actu{
+color: black;
+margin :0px ;
+}
+
+#actu:hover {
+color: #ffbd4a;
+
+}
+
+h5{
+  font-family: Georgia, serif;
+}  
+p{
+  font-family: Georgia, serif;
+}
+
+h5 a{
+  color:black;
+  font-family: Georgia, serif;
+}
+
+h5 a:hover{
+color: #ffbd4a;
+font-family: Georgia, serif;
+}
+
+a h5{
+  color:white;
+  font-family: Georgia, serif;
+}
+
+a h5:hover{
+color: #ffbd4a;
+font-family: Georgia, serif;
+}
+
+p a{
+  color:white;
+  font-family: Georgia, serif;
+}
+
+p a:hover{
+color: #ffbd4a;
+font-family: Georgia, serif;
+}
+
+.card1 img {
+  padding:5px;
+vertical-align: middle;
+width: 150px;
+height: auto;
+}
+
+.card1 {
+  color: white;
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 35%);
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.footer1{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: black;
+  align-content: center;
+  font-family: Georgia, serif;
+}
